@@ -1,35 +1,18 @@
-# employee_mgt_system using Elixir
+# EmployeeMgtSystem
 
+To start your Phoenix server:
 
-### Goals
-* Carry out CRUD functionality on Employees.
-     -  Role Mgt 
-     - CRUD using Ecto
-* Generate employees reports - Logic
-* Authorization
-     - (session mgt) Guardian
-* Request resources - Logic
+  * Run `mix setup` to install and setup dependencies
+  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-  ### Structs
-  * Employee
-      - Name
-      - username
-      - firstName
-      - lastName
-      - Email
-      - timestamp
-      - Department
-      - ID
-      - Password
-  * Request
-      - Name
-      - Employee ID required
-      - Resource ID required
-      - ID
-  * Resources
-      - Name
-      - ID
-      - resourceType(Enum)
-          - Enum - status(Approved,Pending)
-    > A.O.B
-      - Stock balance
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
